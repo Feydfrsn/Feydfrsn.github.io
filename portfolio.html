@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="police-regular">
+    <header>
+        <nav class="police-bold">
+            <a title="Lien vers la section Accueil" class="menu" href="#infos-contact">Accueil</a>
+            <a title="Lien vers la section A propos" class="menu" href="#a_propos">A propos</a>
+            <a title="Lien vers la section CV" class="menu" href="#cv">CV</a>
+            <a title="Lien vers la section Articles récents" class="menu" href="#articles_recents">Articles récents</a>
+            <a title="Lien vers la section Contact" class="menu" href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <img class="image-profil block-pp" src="assets/photo_de_profil.png"
+        alt="Photo du personnage Monkey D. Luffy du manga One Piece qui sourit face à nous" />
+
+    <div class="flexbox-global">
+        <section id="infos-contact">
+            <h1>Monkey D. Luffy</h1>
+            <p class="police-bold">Email :<span: class="police-regular"> contact@sunny.com</span></p>
+            <p class="police-bold">Escargophone :<span class="police-regular"> 06 56 56 56 56</span></p>
+            <p class="police-bold">Localisation :<span class="police-regular"> Nouveau Monde</span></p>
+        </section>
+
+        <section id="a_propos">
+            <h2>A propos :</h2>
+            <p>Je suis Monkey D. Luffy, l'homme qui va vous surpasser, et devenir le Roi des pirates !</p>
+        </section>
+    </div>
+
+    <section id="cv">
+        <div class="flexbox-cv">
+            <div>
+                <h2>CV :</h2>
+                <h3>Frise chronologique de mes aventures :</h3>
+                <div class="grid-tableau center">
+                    <h4 id="t1">Mes aventures</h4>
+                    <h4 id="t2">East Blue</h4>
+                    <h4 id="t3">Grand Line</h4>
+                    <h4 id="t4">Nouveau monde</h4>
+                    <h4 id="t5">Combat contre :</h4>
+                    <h4 id="t6">Sauvetage :</h4>
+                    <p id="t7">Guerre au sommet</p>
+                    <p id="t8">Sauvetage de l'île des hommes poissons</p>
+                    <ul id="t9">
+                        <li>Alliance avec Law</li>
+                        <li>Kidnapping de César</li>
+                    </ul>
+                    <ul id="t10">
+                        <li>Destruction de la fabrique de Smiles</li>
+                        <li>Sauvetage de Dressrosa</li>
+                    </ul>
+                    <ul id="t11">
+                        <li>Sauvetage de Zo</li>
+                        <li>Formation de l'alliance ninjas-pirates-minks-samouraïs</li>
+                    </ul>
+                    <p id="t12">Récupération de Sanji</p>
+                    <ul id="t13">
+                        <li>Victoire contre Kaido</li>
+                        <li>Sauvetage du pays des Wa</li>
+                    </ul>
+                    <ul id="t14">
+                        <li>Kidnapping du docteur Végapunk</li>
+                        <li>Destruction de l'île d'Egghead</li>
+                    </ul>
+                    <p id="t15">Alvida</p>
+                    <p id="t16">Morgan le Hacheur</p>
+                    <p id="t17">Baggy le clown</p>
+                    <p id="t18">Kuro</p>
+                    <p id="t19">Don Krieg</p>
+                    <p id="t20">Arlong</p>
+                    <p id="t21">d'Alabasta</p>
+                    <p id="t22">de Skypiea</p>
+                    <p id="t23">de Robin à Enies Lobby</p>
+                    <p id="t24">de Brook à Thriller Bark</p>
+                </div>
+                <!--
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="19">Mes aventures</th>
+                        </tr>
+                        <tr>
+                            <th colspan="6">East Blue</th>
+                            <th colspan="6">Grand Line</th>
+                            <th colspan="7">Nouveau Monde</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th colspan="6">Combat contre :</th>
+                            <th colspan="4">Sauvetage :</th>
+                            <td rowspan="2">Guerre au sommet</td>
+                            <td rowspan="2">Entraînement de deux ans</td>
+                            <td rowspan="2">Sauvetage de l'île des hommes poissons</td>
+                            <td rowspan="2">
+                                <ul>
+                                    <li>Alliance avec Law</li>
+                                    <li>Kidnapping de César</li>
+                                </ul>
+                            </td>
+                            <td rowspan="2">
+                                <ul>
+                                    <li>Destruction de la fabrique de Smiles</li>
+                                    <li>Sauvetage de Dressrosa</li>
+                                </ul>
+                            </td>
+                            <td rowspan="2">
+                                <ul>
+                                    <li>Sauvetage de Zo</li>
+                                    <li>Formation de l'alliance ninjas-pirates-minks-samouraïs</li>
+                                </ul>
+                            </td>
+                            <td rowspan="2">Récupération de Sanji</td>
+                            <td rowspan="2">
+                                <ul>
+                                    <li>Victoire contre Kaido</li>
+                                    <li>Sauvetage du pays des Wa</li>
+                                </ul>
+                            </td>
+                            <td rowspan="2">
+                                <ul>
+                                    <li>Kidnapping du docteur Végapunk</li>
+                                    <li>Destruction de l'île d'Egghead</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Alvida</td>
+                            <td>Morgan le Hacheur</td>
+                            <td>Baggy le clown</td>
+                            <td>Kuro</td>
+                            <td>Don Krieg</td>
+                            <td>Arlong</td>
+                            <td>d'Alabasta</td>
+                            <td>de Skypiea</td>
+                            <td>de Robin à Enies Lobby</td>
+                            <td>de Brook à Thriller Bark</td>
+                        </tr>
+                    </tbody>
+                </table>
+                -->
+            </div>
+            <div class="flexbox-xp-cpt">
+                <div>
+                    <h3>Mes expériences :</h3>
+                    <ul>
+                        <li>Sauvetage de plusieurs pays (Alabasta, Dressrosa, ...)</li>
+                        <li>Participation à la guerre au sommet</li>
+                        <li>Combat contre la créature la plus puissante du monde gagné</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Mes compétences :</h3>
+                    <ul>
+                        <li>Manger toute la réserve de nourriture en 3 minutes</li>
+                        <li>Devenir Empereur des mers en moins de 3 ans</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="articles_recents">
+        <h2>Articles récents</h2>
+        <div class="grid-articles">
+            <div class="flexbox-articles">
+                <a title="Lien vers l'article 1" href="article1.html">Kidnapping du docteur Végapunk</a>
+                <iframe class="iframe_main" src="article1.html" loading="lazy">
+                </iframe>
+            </div>
+            <div class="flexbox-articles">
+                <a title="Lien vers l'article 2" href="article2.html">Kaido aux cents bêtes vaincu !</a>
+                <iframe class="iframe_main" src="article2.html" loading="lazy">
+                </iframe>
+            </div>
+            <div class="flexbox-articles">
+                <a title="Lien vers l'article 3" href="article3.html">Fujitora s'agenouille face à Riku Dold III</a>
+                <iframe class="iframe_main" src="article3.html" loading="lazy">
+                </iframe>
+            </div>
+            <!--<div class="flexbox-articles">
+                <a title="Lien vers l'article 4" href="article4.html">Test</a>
+                <iframe class="iframe_main" src="article4.html" loading="lazy">
+                </iframe>
+            </div>-->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Me contacter :</h2>
+        <form action="https://api.web3forms.com/submit" method="post">
+            <input type="hidden" name="access_key" value="8bf70eeb-2be3-4eab-82d3-a8966ec452a5">
+            <div>
+                <label class="contact-label" for="name">Nom & Prénom : </label>
+                <input title="Nom & Prénom" type="text" name="name" id="name" placeholder="Nom & Prénom"
+                    autocomplete="name" required />
+            </div>
+            <div>
+                <label class="contact-label" for="email">Email : </label>
+                <input title="Email" type="email" name="email" id="email" placeholder="Email" autocomplete="email"
+                    required />
+            </div>
+            <div>
+                <label class="contact-label" for="telephone">Escargophone : </label>
+                <input class="telephone " title="Escargophone" type="tel" name="telephone" id="telephone"
+                    placeholder="Escargophone" autocomplete="tel" optional />
+            </div>
+            <div>
+                <label class="contact-label" for="autres">Autres : </label>
+                <input title="Autres" type="text" name="autres" id="autres" placeholder="Autres" required />
+            </div>
+            <fieldset>
+                <legend>
+                    Choisissez votre sexe :
+                </legend>
+
+                <input type="radio" id="homme" name="sexe" value="homme" />
+                <label for="homme">Homme</label>
+
+                <input type="radio" id="femme" name="sexe" value="femme" />
+                <label for="femme">Femme</label>
+            </fieldset>
+            <div>
+                <input type="checkbox" name="recontacter" id="recontacter" value="Oui" />
+                <span for="recontacter">Être recontacté ?</span>
+            </div>
+            <div>
+                <input type="submit" value="Envoyer" />
+            </div>
+        </form>
+    </section>
+
+</body>
+
+</html>
